@@ -1,3 +1,2 @@
 # puppet-autosign
-Monitors AWS for instance creation/destruction and adds them/removes them from puppet control
-https://techwiki.internal.bmjgroup.com/index.php/Puppet-Autosign
+Detect newly started/created EC2 instances and automatically whitelist them for inclusion into puppet.
