@@ -1,0 +1,19 @@
+# Read by /etc/init.d/puppet-autosign.
+# Ensure chmod 0600.
+
+# AWS Credentials:
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=eu-west-1
+AWS_ACCOUNT=
+
+# SQS Queues:
+SQS_PEND_QUEUE=new_instances
+SQS_TERM_QUEUE=term_instances
+
+# Site-specific vars:
+PUPPET_WHITELIST=/etc/puppetlabs/puppet/autosign.conf
+LOG_FILE=/var/log/puppet-autosign.log
+
+# Misc options:
+LOG_LEVEL=INFO
